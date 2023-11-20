@@ -31,7 +31,7 @@ export const AddCategories: React.FC<IAddCategoriesProps> = ({
         size="small"
         value={inputValue}
         onChange={handleInputChange}
-        placeholder="Buscar Gift"
+        placeholder="Escribe el nombre de el Gift que desea Buscar"
       />
     </Box>
   );

@@ -8,7 +8,7 @@ interface IGiftExpertAppProps {
 }
 
 export const GiftExpertApp: React.FC<IGiftExpertAppProps> = (props) => {
-  const [categories, setCategories] = useState<string[]>(['']);
+  const [categories, setCategories] = useState<string[]>(['ONE PUNCH']);
   const onNewCategory = (category: string) => {
     setCategories([...categories, category]);
   };

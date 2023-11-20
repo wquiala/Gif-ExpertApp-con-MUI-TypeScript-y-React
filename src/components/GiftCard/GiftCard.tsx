@@ -17,12 +17,7 @@ export const GiftCard: React.FC<IGiftCardProps> = ({ image }) => {
   return (
     <Card sx={{ width: 285 }}>
       <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={image.url.url}
-          alt="green iguana"
-        />
+        <CardMedia component="img" height="140" image={image.url.url} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {image.title}
